@@ -21,8 +21,8 @@ def reverse_each_word(string)
     new_array << word.reverse
   end
   
-  puts array
-  puts new_array
+  #puts array
+  #puts new_array
   
   return new_array.join(' ')
 end
