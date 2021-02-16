@@ -18,12 +18,13 @@ def reverse_each_word(string)
   new_array = []
   
   array.collect do |word|
-    puts word.reverse
+    new_array << word.reverse
   end
   
   puts array
+  puts new_array
   
-  return array.join(' ')
+  return new_array.join(' ')
 end
 
 reverse_each_word("Hello there, and how are you?")
